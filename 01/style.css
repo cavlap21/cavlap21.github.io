@@ -1,0 +1,62 @@
+
+.container-fluid{
+  width: 95vw;
+}
+
+@media (min-width: 90vh) { /* Only applies above 90vh width */
+  .container-fluid{
+    width: 90vh;
+  }
+}
+
+.titulo{
+  font-family: 'Lobster', cursive;
+  height: 7vh;
+  font-size: 5vh;
+  text-align: center;
+}
+
+.bloque{
+  border-style: solid;
+  border-radius: 2vh;
+  border-width: 0.4vh;
+  background-color: #273c75;
+  height: 30vh;
+  color: white;
+  text-align: center;
+}
+
+.centro{
+  background-color: #192a56;
+}
+
+.fila1{
+  font-family: 'Lobster', cursive;
+  font-size: 4vh;
+  height:6.5vh;
+}
+
+.icono{
+  height: 10vh;
+}
+
+.fila2{
+  height:2vh;
+}
+
+.fila3{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.7vh;
+  font-style: italic;
+}
+
+.bloque:hover{
+  background-color: rgba(39, 60, 117,0.8);
+  cursor: auto;
+  /* font-weight: bold; */
+}
+
+@media (max-aspect-ratio: 56/100){ /* Only applies below width/height value */
+  .container-fluid{
+    width: 53.2vh;
+  }

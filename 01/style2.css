@@ -1,0 +1,18 @@
+.abcd {
+  background-color: grey;
+}
+
+
+
+.block{
+  background-color: blue;
+  color: white;
+  border-style: solid;
+  border-radius: 1vh;
+  border-color: black;
+  height: 10vh;
+}
+
+.filaza{
+  height: 30vh;
+}
